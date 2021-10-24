@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Helps with mobile friendly -->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <!-- title of Page on tab -->
+    <title> Babar's Kitchen </title>
+    <!-- relates the css file  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Imported font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- imported menu buttons for mobile -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- header section of the page  -->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">SNACKS</a></li>
+              <li><a href="">CATERING</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    <div class="text-box">
+      <h1>Babar's Kitchen</h1>
+      <p>Home-style, south-asian cuisine. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="" class="hero-btn">Click Here to start ordering.</a>
+    </div>
+    </section>
+
+    <section class="snacks">
+      <h1>Frozen Snacks</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="row">
+        <div class="snacks-col">
+          <h3>Chicken Patties</h3>
+          <p> loren ipsum </p>
+          <img src="images/banner.png">
+        </div>
+        <div class="snacks-col">
+          <h3>Chicken Bread</h3>
+          <p> loren ipsum </p>
+          <img src="images/banner.png">
+        </div>
+        <div class="snacks-col">
+          <h3>Spring rolls</h3>
+          <p> lorem ipsum </p>
+          <img src="images/banner.png">
+        </div>
+      </div>
+    </section>
+
+
+<section class="catering">
+  <h1>Catering</h1>
+  <p>Order for group.</p>
+  <div class="row">
+    <div class="catering-col">
+      <h2>Order based on Headcount</h2>
+      <img src="images/banner.png">
+    </div>
+    <div class="catering-col">
+      <h2>Order based on Number of Dishes</h2>
+      <img src="images/banner.png">
+    </div>
+  </div>
+</section>
+    <!--Footer-->
+    <section class="footer">
+      <h4>About us</h4>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <!-- <i class="fa fa-twitter"></i> -->
+      </div>
+      <!-- <p>Made with <i class="fa fa-heart-o"></i> by Ahmed Babar</p> -->
+    </section>
+  </body>
+</html>

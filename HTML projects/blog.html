@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Babar's Kitchen </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="">HOME</a></li>
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">COURSE</a></li>
+                  <li><a href="">BLOG</a></li>
+                  <li><a href="">CONTACT</a></li>
+                </ul>
+              </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2021</h1>
+    </section>
+
+<!-- Blog page Content -->
+
+<section class="blog-content">
+  <div class="row">
+    <div class="blog-left">
+      <img src="eduford_img/certificate.jpg">
+      <h2>Our Certificates & Online Programs For 2021</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p>
+      <div class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+          <input type="text" placeholder="Enter Name">
+          <input type="text" placeholder="Enter Email">
+          <textarea placeholder="Your Comment" rows="8" ></textarea>
+          <button type="submit" class="hero-btn red-btn">Post comment</button>
+        </form>
+      </div>
+    </div>
+    <div class="blog-right">
+      <h3>Post Categories</h3>
+      <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>Data Science</span>
+        <span>24</span>
+      </div>
+      <div>
+        <span>Machine Learning</span>
+        <span>31</span>
+      </div>
+      <div>
+        <span>Computer Science</span>
+        <span>71</span>
+      </div>
+      <div>
+        <span>Business Analytics</span>
+        <span>81</span>
+      </div>
+      <div>
+        <span>Business Analytics</span>
+        <span>45</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<section class="footer">
+  <h4>About us</h4>
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by easy Tutorials</p>
+</section>
+
+<!--- Javascript for toggle------>
+<script type="text/javascript">
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0px";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+</script>
+
+</body>
+
+</html>
